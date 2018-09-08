@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>COLOR GAME</title>
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+	<link href="https://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="colorgame.css">
+</head>
+<body>
+	<nav>
+		<div class="white" align="center">
+				<h1>The Great</h1>
+		  		<h1 class="color">RGB(<span id="r">80</span>,<span id="g">124</span>,<span id="b">196</span>)</h1>
+		  		<h1>Guessing Game</h1>
+	 	</div>
+	</nav>
+	<nav id="nav_2">
+		<span id="first_span">
+			<button>New Colors</button>	
+		</span>
+			
+		<span id="won"></span>
+
+		<span id="second_span">
+			<button>Easy</button>	
+			<button>Hard</button>
+		</span>	
+	</nav>
+
+	<table>
+		<tbody>
+			<tr id="first_row">
+				<td selected="0" class="noExpand"></td>
+				<td selected="0" class="noExpand"></td>
+				<td selected="0" class="noExpand"></td>
+			</tr>
+			<tr>
+				<td selected="0" class="second_row noExpand"></td>
+				<td selected="0" class="second_row noExpand"></td>
+				<td selected="0" class="second_row noExpand"></td>
+			</tr>
+			
+		</tbody>
+	</table>
+
+	<script type="text/javascript" src="colorgame.js"></script>
+</body>
+</html>
